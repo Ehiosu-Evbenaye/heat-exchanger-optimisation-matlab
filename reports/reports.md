@@ -26,7 +26,7 @@ Operational expenditure (OPEX) is heavily influenced by pumping power. The model
 ## 3. Economic Cost Modeling
 The optimization framework is built on a dual-cost objective function:
  * CAPEX (Capital Expenditure): Derived from material requirements, surface area (A), and manufacturing complexity factors specific to the heat exchanger type.
- * OPEX (Operational Expenditure): Quantified by the energy consumption of pumps, calculated as:
+ * OPEX (Operational Expenditure): Quantified by the energy consumption of pumps, calculated as: <br>
  $$P_{pump} = \frac{\dot{V} \cdot \Delta P}{\eta}$$
 
    where $\dot{V}$ is the volumetric flow rate and $\eta$ is the pump efficiency.
@@ -45,5 +45,6 @@ With the theoretical framework verified, the project will now transition into th
 | Multi-Objective Optimization | Implementing scripts to find the "Sweet Spot" between cost and efficiency. |
 | Pareto Frontier | Visualizing trade-offs using automated plotting routines. |
 | Case Studies | Applying the model to real-world scenarios (e.g., HVAC systems). |
-6. Appendix: Manual Calculation References
-Data and spreadsheets used for these validations are stored in the /verification directory of this repository.
+
+## 6. Appendix: Manual Calculation References
+Data and spreadsheets used for these validations will soon be stored in 
