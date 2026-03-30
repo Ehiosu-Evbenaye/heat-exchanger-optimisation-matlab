@@ -1,22 +1,22 @@
 # Technical Report: Thermal and Economic Modeling of Heat Exchanger Configurations
-Project Phase: Phase 1 (Theoretical Framework & Manual Validation)
+Project Phase: Phase 1 (Theoretical Framework & Manual Validation) <br>
 Status: Completed
 
 ## 1. Executive Summary
-This report documents the mathematical foundation and preliminary validation of a cost-based optimization framework for heat exchangers. The objective is to establish a robust analytical link between thermal performance (calculated via \epsilon-NTU and LMTD methods) and total lifecycle cost. Phase 1 confirms that the derived theoretical models align with industry-standard textbook benchmarks, providing a reliable basis for the subsequent MATLAB automation phase.
+This report documents the mathematical foundation and preliminary validation of a cost-based optimization framework for heat exchangers. The objective is to establish a robust analytical link between thermal performance (calculated via $\epsilon$-NTU and LMTD methods) and total lifecycle cost. Phase 1 confirms that the derived theoretical models align with industry-standard textbook benchmarks, providing a reliable basis for the subsequent MATLAB automation phase.
 
 ## 2. Mathematical Framework
 2.1 Thermal Analysis Models
 To ensure the framework can handle various design scenarios, two complementary methods have been derived:
- * LMTD Method: Primarily utilized for heat exchanger sizing. The core equation established is: 
+ * LMTD Method: Primarily utilized for heat exchanger sizing. The core equation established is: <br>
  $$Q = U \cdot A \cdot \Delta T_{lm} \cdot F$$
   
    Where F is the configuration correction factor (crucial for shell-and-tube multipass arrangements).
  
- * $\epsilon-NTU$ Method: Leveraged for performance prediction and optimization loops. The effectiveness $(\epsilon)$ is defined as the ratio of actual heat transfer to the maximum possible heat transfer:
+ * $\epsilon$-NTU Method: Leveraged for performance prediction and optimization loops. The effectiveness $(\epsilon)$ is defined as the ratio of actual heat transfer to the maximum possible heat transfer: <br>
  $$\epsilon = \frac{Q}{Q_{max}}$$
    
-   Calculations for $C_r$ (capacity ratio) and $NTU$ (Number of Transfer Units) have been mapped for both counter-flow and parallel-flow configurations.
+   Calculations for $C_r$ (capacity ratio) and NTU (Number of Transfer Units) have been mapped for both counter-flow and parallel-flow configurations.
 
 2.2 Fluid Dynamics & Pressure Drop
 Operational expenditure (OPEX) is heavily influenced by pumping power. The model includes friction factor correlations (e.g., Colebrook-White or simplified Darcy-Weisbach) to calculate pressure drops $(\Delta P)$ across:
