@@ -48,5 +48,3 @@ With the theoretical framework verified, the project will now transition into th
 
 ## 6. Appendix: Manual Calculation References
 Data and spreadsheets used for these validations will soon be stored in [verification](https://github.com/Ehiosu-Evbenaye/heat-exchanger-optimisation-matlab/tree/main/verification)
-
-[View Project Repository](https://github.com/Ehiosu-Evbenaye/robust-pid-mass-spring-damper)
