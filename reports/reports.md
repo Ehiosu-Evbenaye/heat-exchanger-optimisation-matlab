@@ -47,4 +47,4 @@ With the theoretical framework verified, the project will now transition into th
 | Case Studies | Applying the model to real-world scenarios (e.g., HVAC systems). |
 
 ## 6. Appendix: Manual Calculation References
-Data and spreadsheets used for these validations will soon be stored in 
+Data and spreadsheets used for these validations will soon be stored in verification https://github.com/Ehiosu-Evbenaye/heat-exchanger-optimisation-matlab/tree/main/verification
